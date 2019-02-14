@@ -1,0 +1,21 @@
+{
+  "name": "cv4_crew",
+  "version": "1.0.0",
+  "description": "API_to_fill_CV_for_crewing_agencies",
+  "license": "Apache-2.0",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --recursive"
+  },
+  "browser": {
+    "fs": false
+  },
+  "dependencies": {
+    "superagent": "3.7.0"
+  },
+  "devDependencies": {
+    "expect.js": "~0.3.1",
+    "mocha": "^5.2.0",
+    "sinon": "1.17.3"
+  }
+}
