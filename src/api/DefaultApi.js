@@ -77,7 +77,7 @@
       var formParams = {
       };
 
-      var authNames = ['ApiKeyAuth', 'BearerAuth'];
+      var authNames = ['BearerAuth'];
       var contentTypes = [];
       var accepts = ['application/json'];
       var returnType = Personal;
@@ -120,7 +120,7 @@
       var formParams = {
       };
 
-      var authNames = ['ApiKeyAuth', 'BearerAuth'];
+      var authNames = ['BearerAuth'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = null;

@@ -1,6 +1,6 @@
 # Cv4Crew.DefaultApi
 
-All URIs are relative to *https://agile-sierra-32951.herokuapp.com/v1*
+All URIs are relative to *https://cv4crew-api.herokuapp.com/v1*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -20,11 +20,6 @@ Route to get seaman personal details information
 ```javascript
 var Cv4Crew = require('cv4_crew');
 var defaultClient = Cv4Crew.ApiClient.instance;
-// Configure API key authorization: ApiKeyAuth
-var ApiKeyAuth = defaultClient.authentications['ApiKeyAuth'];
-ApiKeyAuth.apiKey = 'YOUR API KEY';
-// Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-//ApiKeyAuth.apiKeyPrefix = 'Token';
 
 // Configure HTTP basic authorization: BearerAuth
 var BearerAuth = defaultClient.authentications['BearerAuth'];
@@ -51,7 +46,7 @@ This endpoint does not need any parameter.
 
 ### Authorization
 
-[ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
+[BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -70,11 +65,6 @@ Route to update seaman personal details information
 ```javascript
 var Cv4Crew = require('cv4_crew');
 var defaultClient = Cv4Crew.ApiClient.instance;
-// Configure API key authorization: ApiKeyAuth
-var ApiKeyAuth = defaultClient.authentications['ApiKeyAuth'];
-ApiKeyAuth.apiKey = 'YOUR API KEY';
-// Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-//ApiKeyAuth.apiKeyPrefix = 'Token';
 
 // Configure HTTP basic authorization: BearerAuth
 var BearerAuth = defaultClient.authentications['BearerAuth'];
@@ -107,7 +97,7 @@ null (empty response body)
 
 ### Authorization
 
-[ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
+[BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 

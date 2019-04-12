@@ -47,16 +47,15 @@
     /**
      * The base URL against which to resolve every API call's (relative) path.
      * @type {String}
-     * @default https://agile-sierra-32951.herokuapp.com/v1
+     * @default https://cv4crew-api.herokuapp.com/v1
      */
-    this.basePath = 'https://agile-sierra-32951.herokuapp.com/v1'.replace(/\/+$/, '');
+    this.basePath = 'https://cv4crew-api.herokuapp.com/v1'.replace(/\/+$/, '');
 
     /**
      * The authentication methods to be included for all API calls.
      * @type {Array.<String>}
      */
     this.authentications = {
-      'ApiKeyAuth': {type: 'apiKey', 'in': 'header', name: 'CV4CREW-API-KEY'},
       'BearerAuth': {type: 'basic'}
     };
     /**

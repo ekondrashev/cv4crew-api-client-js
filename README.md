@@ -98,12 +98,6 @@ var Cv4Crew = require('cv4_crew');
 
 var defaultClient = Cv4Crew.ApiClient.instance;
 
-// Configure API key authorization: ApiKeyAuth
-var ApiKeyAuth = defaultClient.authentications['ApiKeyAuth'];
-ApiKeyAuth.apiKey = "YOUR API KEY"
-// Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-//ApiKeyAuth.apiKeyPrefix['CV4CREW-API-KEY'] = "Token"
-
 // Configure HTTP basic authorization: BearerAuth
 var BearerAuth = defaultClient.authentications['BearerAuth'];
 BearerAuth.username = 'YOUR USERNAME'
@@ -124,7 +118,7 @@ api.getPersonalDetails(callback);
 
 ## Documentation for API Endpoints
 
-All URIs are relative to *https://agile-sierra-32951.herokuapp.com/v1*
+All URIs are relative to *https://cv4crew-api.herokuapp.com/v1*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
@@ -149,12 +143,6 @@ Class | Method | HTTP request | Description
 
 ## Documentation for Authorization
 
-
-### ApiKeyAuth
-
-- **Type**: API key
-- **API key parameter name**: CV4CREW-API-KEY
-- **Location**: HTTP header
 
 ### BearerAuth
 
